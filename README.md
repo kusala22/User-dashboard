@@ -1,16 +1,63 @@
-# React + Vite
+# 👥 User Directory Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive User Directory Dashboard built using React that allows users to search, sort, and view detailed user information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search users by name or email (client-side with debounce)
+- 🔄 Sort users by Name and Company (ascending/descending)
+- 📄 Detailed user view with complete information
+- 🎯 Highlight matching search results
+- 🎨 Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Tailwind CSS
+- React Router
+
+---
+
+## 🌐 Live Demo
+
+👉 https://your-vercel-link.vercel.app
+
+---
+
+## 📂 GitHub Repository
+
+👉 https://github.com/kusala22/User-dashboard
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/kusala22/User-dashboard.git
+cd user-dashboard
+npm install
+npm run dev
+
+🎯 Approach
+
+The application was designed with a focus on simplicity, usability, and performance.
+Debounced search and efficient filtering ensure smooth user interaction, while the UI is structured to provide clear and intuitive navigation.
+
+📌 Future Improvements
+Pagination for large datasets
+Dark mode
+API integration with real backend
+🙌 Acknowledgement
+
+Data sourced from:
+https://jsonplaceholder.typicode.com/users
+
+
+---
+deployment
+
+https://user-dashboard-beige-three.vercel.app/
