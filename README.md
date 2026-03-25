@@ -24,7 +24,7 @@ A responsive User Directory Dashboard built using React that allows users to sea
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://user-dashboard-beige-three.vercel.app/
 
 ---
 
@@ -58,6 +58,3 @@ https://jsonplaceholder.typicode.com/users
 
 
 ---
-deployment
-
-https://user-dashboard-beige-three.vercel.app/
